@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD3A2A3F1D4C88B7004AA4F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A2A3E1D4C88B7004AA4F8 /* AppDelegate.swift */; };
+		BD3A2A411D4C88B7004AA4F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A2A401D4C88B7004AA4F8 /* ViewController.swift */; };
+		BD3A2A441D4C88B7004AA4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3A2A421D4C88B7004AA4F8 /* Main.storyboard */; };
+		BD3A2A461D4C88B7004AA4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3A2A451D4C88B7004AA4F8 /* Assets.xcassets */; };
+		BD3A2A491D4C88B7004AA4F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3A2A471D4C88B7004AA4F8 /* LaunchScreen.storyboard */; };
+		BD3A2A541D4C88B8004AA4F8 /* MagicBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A2A531D4C88B8004AA4F8 /* MagicBoxTests.swift */; };
+		BD3A2A5F1D4C88B8004AA4F8 /* MagicBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A2A5E1D4C88B8004AA4F8 /* MagicBoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD3A2A501D4C88B8004AA4F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3A2A331D4C88B7004AA4F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD3A2A3A1D4C88B7004AA4F8;
+			remoteInfo = MagicBox;
+		};
+		BD3A2A5B1D4C88B8004AA4F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD3A2A331D4C88B7004AA4F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD3A2A3A1D4C88B7004AA4F8;
+			remoteInfo = MagicBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD3A2A3B1D4C88B7004AA4F8 /* MagicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3A2A3E1D4C88B7004AA4F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD3A2A401D4C88B7004AA4F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD3A2A431D4C88B7004AA4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD3A2A451D4C88B7004AA4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD3A2A481D4C88B7004AA4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD3A2A4A1D4C88B7004AA4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3A2A4F1D4C88B8004AA4F8 /* MagicBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3A2A531D4C88B8004AA4F8 /* MagicBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxTests.swift; sourceTree = "<group>"; };
+		BD3A2A551D4C88B8004AA4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3A2A5A1D4C88B8004AA4F8 /* MagicBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3A2A5E1D4C88B8004AA4F8 /* MagicBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxUITests.swift; sourceTree = "<group>"; };
+		BD3A2A601D4C88B8004AA4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3A2A381D4C88B7004AA4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3A2A4C1D4C88B8004AA4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3A2A571D4C88B8004AA4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD3A2A321D4C88B7004AA4F8 = {
+			isa = PBXGroup;
+			children = (
+				BD3A2A3D1D4C88B7004AA4F8 /* MagicBox */,
+				BD3A2A521D4C88B8004AA4F8 /* MagicBoxTests */,
+				BD3A2A5D1D4C88B8004AA4F8 /* MagicBoxUITests */,
+				BD3A2A3C1D4C88B7004AA4F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD3A2A3C1D4C88B7004AA4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A2A3B1D4C88B7004AA4F8 /* MagicBox.app */,
+				BD3A2A4F1D4C88B8004AA4F8 /* MagicBoxTests.xctest */,
+				BD3A2A5A1D4C88B8004AA4F8 /* MagicBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3A2A3D1D4C88B7004AA4F8 /* MagicBox */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A2A3E1D4C88B7004AA4F8 /* AppDelegate.swift */,
+				BD3A2A401D4C88B7004AA4F8 /* ViewController.swift */,
+				BD3A2A421D4C88B7004AA4F8 /* Main.storyboard */,
+				BD3A2A451D4C88B7004AA4F8 /* Assets.xcassets */,
+				BD3A2A471D4C88B7004AA4F8 /* LaunchScreen.storyboard */,
+				BD3A2A4A1D4C88B7004AA4F8 /* Info.plist */,
+			);
+			path = MagicBox;
+			sourceTree = "<group>";
+		};
+		BD3A2A521D4C88B8004AA4F8 /* MagicBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A2A531D4C88B8004AA4F8 /* MagicBoxTests.swift */,
+				BD3A2A551D4C88B8004AA4F8 /* Info.plist */,
+			);
+			path = MagicBoxTests;
+			sourceTree = "<group>";
+		};
+		BD3A2A5D1D4C88B8004AA4F8 /* MagicBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A2A5E1D4C88B8004AA4F8 /* MagicBoxUITests.swift */,
+				BD3A2A601D4C88B8004AA4F8 /* Info.plist */,
+			);
+			path = MagicBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD3A2A3A1D4C88B7004AA4F8 /* MagicBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3A2A631D4C88B8004AA4F8 /* Build configuration list for PBXNativeTarget "MagicBox" */;
+			buildPhases = (
+				BD3A2A371D4C88B7004AA4F8 /* Sources */,
+				BD3A2A381D4C88B7004AA4F8 /* Frameworks */,
+				BD3A2A391D4C88B7004AA4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicBox;
+			productName = MagicBox;
+			productReference = BD3A2A3B1D4C88B7004AA4F8 /* MagicBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD3A2A4E1D4C88B8004AA4F8 /* MagicBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3A2A661D4C88B8004AA4F8 /* Build configuration list for PBXNativeTarget "MagicBoxTests" */;
+			buildPhases = (
+				BD3A2A4B1D4C88B8004AA4F8 /* Sources */,
+				BD3A2A4C1D4C88B8004AA4F8 /* Frameworks */,
+				BD3A2A4D1D4C88B8004AA4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3A2A511D4C88B8004AA4F8 /* PBXTargetDependency */,
+			);
+			name = MagicBoxTests;
+			productName = MagicBoxTests;
+			productReference = BD3A2A4F1D4C88B8004AA4F8 /* MagicBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD3A2A591D4C88B8004AA4F8 /* MagicBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3A2A691D4C88B8004AA4F8 /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */;
+			buildPhases = (
+				BD3A2A561D4C88B8004AA4F8 /* Sources */,
+				BD3A2A571D4C88B8004AA4F8 /* Frameworks */,
+				BD3A2A581D4C88B8004AA4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3A2A5C1D4C88B8004AA4F8 /* PBXTargetDependency */,
+			);
+			name = MagicBoxUITests;
+			productName = MagicBoxUITests;
+			productReference = BD3A2A5A1D4C88B8004AA4F8 /* MagicBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3A2A331D4C88B7004AA4F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JasonXu;
+				TargetAttributes = {
+					BD3A2A3A1D4C88B7004AA4F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BD3A2A4E1D4C88B8004AA4F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BD3A2A3A1D4C88B7004AA4F8;
+					};
+					BD3A2A591D4C88B8004AA4F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BD3A2A3A1D4C88B7004AA4F8;
+					};
+				};
+			};
+			buildConfigurationList = BD3A2A361D4C88B7004AA4F8 /* Build configuration list for PBXProject "MagicBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD3A2A321D4C88B7004AA4F8;
+			productRefGroup = BD3A2A3C1D4C88B7004AA4F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD3A2A3A1D4C88B7004AA4F8 /* MagicBox */,
+				BD3A2A4E1D4C88B8004AA4F8 /* MagicBoxTests */,
+				BD3A2A591D4C88B8004AA4F8 /* MagicBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD3A2A391D4C88B7004AA4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3A2A491D4C88B7004AA4F8 /* LaunchScreen.storyboard in Resources */,
+				BD3A2A461D4C88B7004AA4F8 /* Assets.xcassets in Resources */,
+				BD3A2A441D4C88B7004AA4F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3A2A4D1D4C88B8004AA4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3A2A581D4C88B8004AA4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3A2A371D4C88B7004AA4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3A2A411D4C88B7004AA4F8 /* ViewController.swift in Sources */,
+				BD3A2A3F1D4C88B7004AA4F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3A2A4B1D4C88B8004AA4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3A2A541D4C88B8004AA4F8 /* MagicBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3A2A561D4C88B8004AA4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3A2A5F1D4C88B8004AA4F8 /* MagicBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD3A2A511D4C88B8004AA4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD3A2A3A1D4C88B7004AA4F8 /* MagicBox */;
+			targetProxy = BD3A2A501D4C88B8004AA4F8 /* PBXContainerItemProxy */;
+		};
+		BD3A2A5C1D4C88B8004AA4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD3A2A3A1D4C88B7004AA4F8 /* MagicBox */;
+			targetProxy = BD3A2A5B1D4C88B8004AA4F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD3A2A421D4C88B7004AA4F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3A2A431D4C88B7004AA4F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD3A2A471D4C88B7004AA4F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3A2A481D4C88B7004AA4F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD3A2A611D4C88B8004AA4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD3A2A621D4C88B8004AA4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3A2A641D4C88B8004AA4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonxu.MagicBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD3A2A651D4C88B8004AA4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonxu.MagicBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD3A2A671D4C88B8004AA4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonxu.MagicBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBox.app/MagicBox";
+			};
+			name = Debug;
+		};
+		BD3A2A681D4C88B8004AA4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonxu.MagicBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBox.app/MagicBox";
+			};
+			name = Release;
+		};
+		BD3A2A6A1D4C88B8004AA4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonxu.MagicBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicBox;
+			};
+			name = Debug;
+		};
+		BD3A2A6B1D4C88B8004AA4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonxu.MagicBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3A2A361D4C88B7004AA4F8 /* Build configuration list for PBXProject "MagicBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3A2A611D4C88B8004AA4F8 /* Debug */,
+				BD3A2A621D4C88B8004AA4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3A2A631D4C88B8004AA4F8 /* Build configuration list for PBXNativeTarget "MagicBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3A2A641D4C88B8004AA4F8 /* Debug */,
+				BD3A2A651D4C88B8004AA4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD3A2A661D4C88B8004AA4F8 /* Build configuration list for PBXNativeTarget "MagicBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3A2A671D4C88B8004AA4F8 /* Debug */,
+				BD3A2A681D4C88B8004AA4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD3A2A691D4C88B8004AA4F8 /* Build configuration list for PBXNativeTarget "MagicBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3A2A6A1D4C88B8004AA4F8 /* Debug */,
+				BD3A2A6B1D4C88B8004AA4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD3A2A331D4C88B7004AA4F8 /* Project object */;
+}
